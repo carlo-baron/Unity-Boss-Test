@@ -21,13 +21,16 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb = !rb ? gameObject.AddComponent<Rigidbody2D>() : GetComponent<Rigidbody2D>();
+        rb.gravityScale = 3;
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         walkSpeed = maxSpeed * walkSpeed;
     }
 
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.Space) && IsGrounded()){
             rb.AddForce(jumpForce * Vector2.up, ForceMode2D.Impulse);
         }
 
@@ -48,5 +51,9 @@ public class PlayerMovement : MonoBehaviour
         float movement = speedDifference * rate;
 
         rb.AddForce(movement * Vector2.right, ForceMode2D.Force);
+    }
+
+    public bool IsGrounded(){
+        return Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("ground"));
     }
 }
