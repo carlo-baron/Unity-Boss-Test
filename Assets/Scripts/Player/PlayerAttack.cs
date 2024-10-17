@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     Animator anim;
-    
+    [SerializeField]BoxCollider2D atkCollider;   
     int atkVal;
     public int AtkVal
     {
@@ -99,6 +99,25 @@ public class PlayerAttack : MonoBehaviour
         if (!isAttack)
         {
             atkVal = 0;
+        }
+    }
+
+    Collider2D[] EnemiesHit(){
+        List<Collider2D> enemies = new List<Collider2D>();
+        ContactFilter2D contactFilter = new ContactFilter2D();
+        contactFilter.SetLayerMask(LayerMask.GetMask("enemy"));
+
+        Physics2D.OverlapCollider(atkCollider, contactFilter, enemies);
+
+        return enemies.ToArray();
+    }
+
+    // Damage parameter is set in the animation event
+    public void Attack1(int damage){
+        if(EnemiesHit().Length > 0){
+            foreach(Collider2D enemy in EnemiesHit()){
+                enemy.gameObject.GetComponent<IDamageable>().Hurt(damage);
+            }
         }
     }
 }
