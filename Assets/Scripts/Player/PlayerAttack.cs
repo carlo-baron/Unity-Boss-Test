@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     Animator anim;
-    [SerializeField]BoxCollider2D atkCollider;   
+    [SerializeField]BoxCollider2D atkCollider;
+    PlayerMovement playerMovement;
     int atkVal;
     public int AtkVal
     {
@@ -62,6 +63,7 @@ public class PlayerAttack : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     void Update()
@@ -74,9 +76,10 @@ public class PlayerAttack : MonoBehaviour
             cd.StartCooldown();
         }
 
-
         anim.SetInteger("intVal", atkVal);
         anim.SetBool("inAtk", isAttack);
+
+        playerMovement.enabled = reAttack ? true : false;
 
         if (isAttack) cd.StartCooldown();
         if (cd.isCoolingdown) return;
@@ -113,10 +116,20 @@ public class PlayerAttack : MonoBehaviour
     }
 
     // Damage parameter is set in the animation event
-    public void Attack1(int damage){
+    public void Attack(int damage){
         if(EnemiesHit().Length > 0){
             foreach(Collider2D enemy in EnemiesHit()){
-                enemy.gameObject.GetComponent<IDamageable>().Hurt(damage);
+                IDamageable damageable = enemy.gameObject.GetComponent<IDamageable>();
+                damageable?.Hurt(damage);
+            }
+        }
+    }
+
+    public void GiveKnockback(float multiplier){
+        if(EnemiesHit().Length > 0){
+            foreach(Collider2D enemy in EnemiesHit()){
+                IDamageable damageable = enemy.gameObject.GetComponent<IDamageable>();
+                damageable?.Knockback(transform, multiplier);
             }
         }
     }
