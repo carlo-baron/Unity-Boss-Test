@@ -34,10 +34,7 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(jumpForce * Vector2.up, ForceMode2D.Impulse);
         }
 
-        if(rb.velocity.x < 0 && !isFlipped){
-            transform.Rotate(0,180,0);
-            isFlipped = !isFlipped;
-        }else if(rb.velocity.x > 0 && isFlipped){
+        if(rb.velocity.x < 0 && !isFlipped || rb.velocity.x > 0 && isFlipped){
             transform.Rotate(0,180,0);
             isFlipped = !isFlipped;
         }

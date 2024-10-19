@@ -4,35 +4,35 @@ using UnityEngine;
 
 public class ConsecutiveAttack : StateMachineBehaviour
 {
-    PlayerAttack anim;
+    PlayerAttack playerAttack;
     bool canAttack = true;
 
     void Awake(){
-        anim = FindObjectOfType<PlayerAttack>();
+        playerAttack = FindObjectOfType<PlayerAttack>();
     }
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         canAttack = true;
-        anim.IsAttack = false;
+        playerAttack.IsAttack = false;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if(Input.GetMouseButtonDown(0) && canAttack){
-            anim.NextAttack();
+            playerAttack.NextAttack();
             canAttack = false;
-            anim.IsAttack = true;
+            playerAttack.IsAttack = true;
         }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(!anim.IsAttack){
-            anim.ReAttack = true;
-            anim.AtkCache = anim.AtkCache < 3 ? anim.AtkVal + 1 : 1;
+        if(!playerAttack.IsAttack){
+            playerAttack.ReAttack = true;
+            playerAttack.AtkCache = playerAttack.AtkCache < 3 ? playerAttack.AtkVal + 1 : 1;
         }
     }
 
