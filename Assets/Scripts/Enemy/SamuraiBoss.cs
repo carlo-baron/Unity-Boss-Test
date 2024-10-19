@@ -13,7 +13,6 @@ public class SamuraiBoss : MeleeEnemy
 
         if(AttackCooldown.isCoolingdown) return;
         if(!isMoving){
-            print("true");
             anim.SetTrigger("atk");
             AttackCooldown.StartCooldown();
         }
