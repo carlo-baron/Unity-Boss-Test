@@ -809,8 +809,28 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1272841580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1634895169683522441, guid: b64275f5586532446ac9e0efda42f2b6, type: 3}
+  m_PrefabInstance: {fileID: 6013135976171802997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1272841586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272841580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88109c31ca161464c9a8fc1e5704a94b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atkCD:
+    cooldownnTime: 5
+  atkProjectile: {fileID: 3922186873785204289, guid: 34f7a479b4c837b499b63e557e9e72ad, type: 3}
 --- !u!1 &1506272779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,7 +1040,7 @@ RectTransform:
   - {fileID: 1763586010}
   - {fileID: 59635716}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1236,6 +1256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slime Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 6910060845969746184, guid: 23ce8a65816b3c141b204207ee0782ec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23ce8a65816b3c141b204207ee0782ec, type: 3}
 --- !u!1001 &6013135976171802997
@@ -1251,15 +1275,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3320071847446962671, guid: b64275f5586532446ac9e0efda42f2b6, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3320071847446962671, guid: b64275f5586532446ac9e0efda42f2b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.64
+      value: 4.65
       objectReference: {fileID: 0}
     - target: {fileID: 3320071847446962671, guid: b64275f5586532446ac9e0efda42f2b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.99
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 3320071847446962671, guid: b64275f5586532446ac9e0efda42f2b6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1304,7 +1328,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8459022731431569636, guid: 29a8c4a2468c93845bc75d4c5c783f93, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8459022731431569636, guid: 29a8c4a2468c93845bc75d4c5c783f93, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1349,6 +1373,10 @@ PrefabInstance:
     - target: {fileID: 8459022731431569643, guid: 29a8c4a2468c93845bc75d4c5c783f93, type: 3}
       propertyPath: m_Name
       value: Samurai Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459022731431569643, guid: 29a8c4a2468c93845bc75d4c5c783f93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29a8c4a2468c93845bc75d4c5c783f93, type: 3}
