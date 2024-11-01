@@ -5,9 +5,14 @@ using UnityEngine;
 [System.Serializable]
 public class Cooldown
 {
-    [SerializeField] float cooldownnTime;
+    [SerializeField] float cooldownTime;
+
+    public float CooldownTime{
+        get { return cooldownTime; }
+        set { if(value > 0) cooldownTime = value; }
+    }
     float nextFireTime;
 
     public bool isCoolingdown => Time.time < nextFireTime;
-    public void StartCooldown() => nextFireTime = Time.time + cooldownnTime;
+    public void StartCooldown() => nextFireTime = Time.time + cooldownTime;
 }

@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &778932474542783125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8595130363468625207}
+  m_Layer: 6
+  m_Name: projectile point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8595130363468625207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778932474542783125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.45, y: -0.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3320071847446962671}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1634895169683522441
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,6 +44,7 @@ GameObject:
   - component: {fileID: 6226104124145521932}
   - component: {fileID: 7658789837795997324}
   - component: {fileID: 4263353081596304728}
+  - component: {fileID: 1272841586}
   m_Layer: 6
   m_Name: Bat
   m_TagString: Untagged
@@ -31,7 +63,8 @@ Transform:
   m_LocalPosition: {x: 4.0762067, y: 0.2496705, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8595130363468625207}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -145,3 +178,28 @@ CircleCollider2D:
   m_Offset: {x: -0.3163272, y: -0.41122603}
   serializedVersion: 2
   m_Radius: 0.7882253
+--- !u!114 &1272841586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634895169683522441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88109c31ca161464c9a8fc1e5704a94b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkyPosisitons:
+  - {fileID: 0}
+  - {fileID: 0}
+  GroundPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  MoveSpeed: 10
+  AttackCooldown:
+    cooldownTime: 1
+  ChangeStateCooldown:
+    cooldownTime: 5
+  Projectile: {fileID: 3922186873785204289, guid: 34f7a479b4c837b499b63e557e9e72ad, type: 3}
+  ProjectileFirePoint: {fileID: 8595130363468625207}
