@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(jumpForce * Vector2.up, ForceMode2D.Impulse);
         }
 
-        if(rb.velocity.x < 0 && !isFlipped || rb.velocity.x > 0 && isFlipped){
+        if(rb.linearVelocity.x < 0 && !isFlipped || rb.linearVelocity.x > 0 && isFlipped){
             transform.Rotate(0,180,0);
             isFlipped = !isFlipped;
         }
@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate(){
         float speed = Input.GetKey(KeyCode.LeftShift) ? maxSpeed : walkSpeed;
         float targetSpeed = speed * moveInput;
-        float speedDifference = targetSpeed - rb.velocity.x;
+        float speedDifference = targetSpeed - rb.linearVelocity.x;
         float rate = moveInput != 0 ? acceleration : deceleration;
         float movement = speedDifference * rate;
 

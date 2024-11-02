@@ -7,8 +7,9 @@ public class BatBoss : FlyingEnemy
     AttackStates state;
     Vector3 newPosition;
     bool moveAgain = true;
-
     float defaultAttackCooldown;
+
+    PlayerHealth heatlh;
 
     void Start(){
         defaultAttackCooldown = AttackCooldown.CooldownTime;

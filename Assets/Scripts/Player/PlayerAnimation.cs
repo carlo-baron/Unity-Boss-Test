@@ -17,8 +17,8 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         float maxClamp = Input.GetKey(KeyCode.LeftShift) ? 1 : 0.5f;
-        anim.SetFloat("xVelocity", Mathf.Clamp(rb.velocity.x, -maxClamp, maxClamp));
-        anim.SetFloat("yVelocity", Mathf.Clamp(rb.velocity.y, -1, 1));
+        anim.SetFloat("xVelocity", Mathf.Clamp(rb.linearVelocity.x, -maxClamp, maxClamp));
+        anim.SetFloat("yVelocity", Mathf.Clamp(rb.linearVelocity.y, -1, 1));
         anim.SetBool("ground", playerMovement.IsGrounded());
     }
 }

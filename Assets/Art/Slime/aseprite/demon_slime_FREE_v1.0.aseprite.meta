@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -103,6 +105,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -124,6 +127,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.00952381}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 140
@@ -144,6 +148,7 @@ ScriptedImporter:
     pivot: {x: 0.47126436, y: -0.009615385}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 807
@@ -164,6 +169,7 @@ ScriptedImporter:
     pivot: {x: 0.47252747, y: -0.009345795}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 549
@@ -184,6 +190,7 @@ ScriptedImporter:
     pivot: {x: 0.48351654, y: -0.009433962}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 869
@@ -204,6 +211,7 @@ ScriptedImporter:
     pivot: {x: 0.47252747, y: -0.009345795}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 648
@@ -224,6 +232,7 @@ ScriptedImporter:
     pivot: {x: 0.47126436, y: -0.009803922}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 902
@@ -244,6 +253,7 @@ ScriptedImporter:
     pivot: {x: 0.54687506, y: -0.010000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 770
@@ -264,6 +274,7 @@ ScriptedImporter:
     pivot: {x: 0.51470596, y: -0.01010101}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 467
@@ -284,6 +295,7 @@ ScriptedImporter:
     pivot: {x: 0.52238816, y: -0.010000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 619
@@ -304,6 +316,7 @@ ScriptedImporter:
     pivot: {x: 0.50000006, y: -0.01010101}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 311
@@ -324,6 +337,7 @@ ScriptedImporter:
     pivot: {x: 0.47297302, y: -0.010000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 664
@@ -344,6 +358,7 @@ ScriptedImporter:
     pivot: {x: 0.448718, y: -0.010000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 904
@@ -364,6 +379,7 @@ ScriptedImporter:
     pivot: {x: 0.44705883, y: -0.01010101}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 635
@@ -384,6 +400,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.01010101}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 816
@@ -404,6 +421,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.010000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 728
@@ -424,6 +442,7 @@ ScriptedImporter:
     pivot: {x: 0.49315068, y: -0.01010101}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 746
@@ -444,6 +463,7 @@ ScriptedImporter:
     pivot: {x: 0.50000006, y: -0.010000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 233
@@ -464,6 +484,7 @@ ScriptedImporter:
     pivot: {x: 0.51470596, y: -0.01010101}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 543
@@ -484,6 +505,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.00952381}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -504,6 +526,7 @@ ScriptedImporter:
     pivot: {x: 0.47368422, y: -0.009615385}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 580
@@ -524,6 +547,7 @@ ScriptedImporter:
     pivot: {x: 0.3978494, y: -0.009174312}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 243
@@ -544,6 +568,7 @@ ScriptedImporter:
     pivot: {x: 0.32558134, y: -0.009345795}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 615
@@ -564,6 +589,7 @@ ScriptedImporter:
     pivot: {x: 0.32222223, y: -0.009174312}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 451
@@ -584,6 +610,7 @@ ScriptedImporter:
     pivot: {x: 0.3146067, y: -0.00952381}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 422
@@ -604,6 +631,7 @@ ScriptedImporter:
     pivot: {x: 0.3139535, y: -0.009174312}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 328
@@ -624,6 +652,7 @@ ScriptedImporter:
     pivot: {x: 0.3139535, y: -0.00877193}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 140
@@ -644,6 +673,7 @@ ScriptedImporter:
     pivot: {x: 0.3139535, y: -0.009009009}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 234
@@ -664,6 +694,7 @@ ScriptedImporter:
     pivot: {x: 0.77272725, y: -0.00990099}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 305
@@ -684,6 +715,7 @@ ScriptedImporter:
     pivot: {x: 0.77707005, y: -0.01980198}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 140
@@ -704,6 +736,7 @@ ScriptedImporter:
     pivot: {x: 0.775, y: -0.010309278}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 467
@@ -724,6 +757,7 @@ ScriptedImporter:
     pivot: {x: 0.64646465, y: -0.009803922}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 344
@@ -744,6 +778,7 @@ ScriptedImporter:
     pivot: {x: 0.55128205, y: -0.009803922}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 942
@@ -764,6 +799,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.00952381}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 316
@@ -784,6 +820,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.00952381}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 404
@@ -804,6 +841,7 @@ ScriptedImporter:
     pivot: {x: 0.32941172, y: -0.009708738}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 140
@@ -824,6 +862,7 @@ ScriptedImporter:
     pivot: {x: 0.30392158, y: -0.00952381}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -844,6 +883,7 @@ ScriptedImporter:
     pivot: {x: 0.3666667, y: -0.009803922}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 709
@@ -864,6 +904,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.009708738}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 492
@@ -884,6 +925,7 @@ ScriptedImporter:
     pivot: {x: 0.475, y: -0.011235955}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 907
@@ -904,6 +946,7 @@ ScriptedImporter:
     pivot: {x: 0.50000006, y: -0.010309278}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 389
@@ -924,6 +967,7 @@ ScriptedImporter:
     pivot: {x: 0.4852942, y: -0.010416667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 694
@@ -944,6 +988,7 @@ ScriptedImporter:
     pivot: {x: 0.51388884, y: -0.01010101}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 827
@@ -964,6 +1009,7 @@ ScriptedImporter:
     pivot: {x: 0.4204545, y: -0.00952381}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 519
@@ -984,6 +1030,7 @@ ScriptedImporter:
     pivot: {x: 0.27368426, y: -0.0088495575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 140
@@ -1004,6 +1051,7 @@ ScriptedImporter:
     pivot: {x: 0.35042736, y: -0.008474576}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 817
@@ -1024,6 +1072,7 @@ ScriptedImporter:
     pivot: {x: 0.34351143, y: -0.008264462}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 140
@@ -1044,6 +1093,7 @@ ScriptedImporter:
     pivot: {x: 0.34375003, y: -0.008130081}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1064,6 +1114,7 @@ ScriptedImporter:
     pivot: {x: 0.34375003, y: -0.008264462}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 279
@@ -1084,6 +1135,7 @@ ScriptedImporter:
     pivot: {x: 0.34375003, y: -0.008064516}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1104,6 +1156,7 @@ ScriptedImporter:
     pivot: {x: 0.34375003, y: -0.009174312}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 681
@@ -1124,6 +1177,7 @@ ScriptedImporter:
     pivot: {x: 0.32799998, y: -0.0088495575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 548
@@ -1144,6 +1198,7 @@ ScriptedImporter:
     pivot: {x: 0.32799998, y: -0.008695653}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 415
@@ -1164,6 +1219,7 @@ ScriptedImporter:
     pivot: {x: 0.2941177, y: -0.00862069}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1184,6 +1240,7 @@ ScriptedImporter:
     pivot: {x: 0.29203543, y: -0.008264462}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1204,6 +1261,7 @@ ScriptedImporter:
     pivot: {x: 0.30701756, y: -0.008130081}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1224,6 +1282,7 @@ ScriptedImporter:
     pivot: {x: 0.30701756, y: -0.008130081}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1244,6 +1303,7 @@ ScriptedImporter:
     pivot: {x: 0.30701756, y: -0.008264462}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1264,6 +1324,7 @@ ScriptedImporter:
     pivot: {x: 0.30701756, y: -0.011764706}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 747
@@ -1284,6 +1345,7 @@ ScriptedImporter:
     pivot: {x: 0.30701756, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 902
@@ -1304,6 +1366,7 @@ ScriptedImporter:
     pivot: {x: 0.30701756, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 681
@@ -1328,480 +1391,540 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: demon_slime_FREE_v1.0_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 105
       spriteId: 10d2d3ac35edc8c4b980f5a0936638ff
-    - name: demon_slime_FREE_v1.0_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 103
         y: 1
         width: 87
         height: 104
       spriteId: f9b555732fc875b4796bbba36bed4343
-    - name: demon_slime_FREE_v1.0_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 101
         y: 1
         width: 91
         height: 107
       spriteId: 8aa42d127babec24fb4cf021d567a5e0
-    - name: demon_slime_FREE_v1.0_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 100
         y: 1
         width: 91
         height: 106
       spriteId: 6e52d0b5b1e291a4ea75d58e3f900d23
-    - name: demon_slime_FREE_v1.0_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 101
         y: 1
         width: 91
         height: 107
       spriteId: c7bfcb681755b6644b86a499c3afd176
-    - name: demon_slime_FREE_v1.0_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 103
         y: 1
         width: 87
         height: 102
       spriteId: 9c6e0dfb69b886e4098c07bf73069e49
-    - name: demon_slime_FREE_v1.0_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 64
         height: 100
       spriteId: 2ca24ff2bad20d449ab05d3d65c93522
-    - name: demon_slime_FREE_v1.0_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 68
         height: 99
       spriteId: 7b9502399d5ec7645bea3bd2a5a9fcb8
-    - name: demon_slime_FREE_v1.0_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 67
         height: 100
       spriteId: 3fc5a5c230d8c5a43bdfc95a21b7410b
-    - name: demon_slime_FREE_v1.0_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 70
         height: 99
       spriteId: 9870a40fa1afa7c4b9d5d8b749528b85
-    - name: demon_slime_FREE_v1.0_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 74
         height: 100
       spriteId: 8420bfc91c351744c8c611938bf7e287
-    - name: demon_slime_FREE_v1.0_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 78
         height: 100
       spriteId: 9bc3f525d4f8b7349913600de6801ae9
-    - name: demon_slime_FREE_v1.0_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 85
         height: 99
       spriteId: 3e38766cb13a87b4293abf161fe373b6
-    - name: demon_slime_FREE_v1.0_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 99
       spriteId: 8cd98ea0406000c4784d5ef25146b41b
-    - name: demon_slime_FREE_v1.0_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 100
       spriteId: b54fd97c510dc6f4286554a2c830bd93
-    - name: demon_slime_FREE_v1.0_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 108
         y: 1
         width: 73
         height: 99
       spriteId: 9de74fc8a03a07c4fa6cecafd52fc282
-    - name: demon_slime_FREE_v1.0_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 70
         height: 100
       spriteId: 96c84b9ad89dc864387ab2e886bddf5d
-    - name: demon_slime_FREE_v1.0_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 68
         height: 99
       spriteId: 9b1d41c6d67c39a45b3b6224c94e3a17
-    - name: demon_slime_FREE_v1.0_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 105
       spriteId: 50358f447fb2b6d4cb33607709ae8936
-    - name: demon_slime_FREE_v1.0_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 108
         y: 1
         width: 76
         height: 104
       spriteId: e4b3b5dd5882065479447bd36312d6b1
-    - name: demon_slime_FREE_v1.0_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 93
         height: 109
       spriteId: 389590cc2e395b34998239c2891dbfaa
-    - name: demon_slime_FREE_v1.0_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 1
         width: 86
         height: 107
       spriteId: 80ebce4b5bf3b2642a15eb1306285731
-    - name: demon_slime_FREE_v1.0_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 115
         y: 1
         width: 90
         height: 109
       spriteId: da9331d6258187744a67576bff9b5abb
-    - name: demon_slime_FREE_v1.0_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 1
         width: 89
         height: 105
       spriteId: 9c85d80c4a856a544b9b694cd350063b
-    - name: demon_slime_FREE_v1.0_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 117
         y: 1
         width: 86
         height: 109
       spriteId: c18e0da606f1a1e4bbd6735c9b2a5498
-    - name: demon_slime_FREE_v1.0_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 117
         y: 1
         width: 86
         height: 114
       spriteId: 9ff7b2668a0a64b45ab6e89547504057
-    - name: demon_slime_FREE_v1.0_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 117
         y: 1
         width: 86
         height: 111
       spriteId: 4318522cd8163e74ca6e56b7daf5ca11
-    - name: demon_slime_FREE_v1.0_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 1
         width: 154
         height: 101
       spriteId: 75f5647c2ba9eab4fae880b9d57adf5b
-    - name: demon_slime_FREE_v1.0_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 2
         width: 157
         height: 101
       spriteId: ddf24377177f8c142bd13dbc7fe2537c
-    - name: demon_slime_FREE_v1.0_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 1
         width: 160
         height: 97
       spriteId: e1c42352bdf7df042aa5d414d0434a2e
-    - name: demon_slime_FREE_v1.0_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 80
         y: 1
         width: 99
         height: 102
       spriteId: 2732b8a2a78a0fc47bf06feef6fe89ce
-    - name: demon_slime_FREE_v1.0_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 101
         y: 1
         width: 78
         height: 102
       spriteId: 5c830e053d12b544aad35e21c59c9242
-    - name: demon_slime_FREE_v1.0_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 105
       spriteId: b46bf1c94c9fa75409926c768eceb128
-    - name: demon_slime_FREE_v1.0_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 105
       spriteId: 6a76171aedef15c46bfd27cd319a5bd6
-    - name: demon_slime_FREE_v1.0_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 116
         y: 1
         width: 85
         height: 103
       spriteId: f07c3e8401701df4d8ac4a8f4928c3ba
-    - name: demon_slime_FREE_v1.0_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 113
         y: 1
         width: 102
         height: 105
       spriteId: e318ad6a25718274a9e1693655f3af06
-    - name: demon_slime_FREE_v1.0_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 111
         y: 1
         width: 90
         height: 102
       spriteId: 36f69fdec3d8fb9459f90bd5aa28c6e1
-    - name: demon_slime_FREE_v1.0_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 103
       spriteId: 9a4e101bc1de756439a604ecd3ff1e45
-    - name: demon_slime_FREE_v1.0_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 106
         y: 1
         width: 80
         height: 89
       spriteId: e41a4d3c5bf98cf4c8250ceede10aa64
-    - name: demon_slime_FREE_v1.0_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 70
         height: 97
       spriteId: 8fc9dae61b477b1438365b236f237233
-    - name: demon_slime_FREE_v1.0_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 111
         y: 1
         width: 68
         height: 96
       spriteId: 2f2dff938fbf24747969e08a38b464a9
-    - name: demon_slime_FREE_v1.0_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 72
         height: 99
       spriteId: 1692518b5bd33cd4b857ac802b160b88
-    - name: demon_slime_FREE_v1.0_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 107
         y: 1
         width: 88
         height: 105
       spriteId: ff88cb8a6ffa15647b9fb51a053ddd46
-    - name: demon_slime_FREE_v1.0_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 118
         y: 1
         width: 95
         height: 113
       spriteId: 73f6845038b574943924e9116d6e66dd
-    - name: demon_slime_FREE_v1.0_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 103
         y: 1
         width: 117
         height: 118
       spriteId: 146d162831cbaf54d918979ab1607bce
-    - name: demon_slime_FREE_v1.0_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 99
         y: 1
         width: 131
         height: 121
       spriteId: 7ab2cd864eecc6c488b657c8c7339549
-    - name: demon_slime_FREE_v1.0_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 100
         y: 1
         width: 128
         height: 123
       spriteId: 7da173fed228dca429c66ba83e88819c
-    - name: demon_slime_FREE_v1.0_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 100
         y: 1
         width: 128
         height: 121
       spriteId: 7442627fb44cad246acb1966447c81a1
-    - name: demon_slime_FREE_v1.0_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 100
         y: 1
         width: 128
         height: 124
       spriteId: 81077ec0d43d5e245bcbf777826b7ea9
-    - name: demon_slime_FREE_v1.0_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 100
         y: 1
         width: 128
         height: 109
       spriteId: af8ab392909819e4b8ad6893593e93ee
-    - name: demon_slime_FREE_v1.0_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 103
         y: 1
         width: 125
         height: 113
       spriteId: 6dd4509433f2be44dbb29bf822027462
-    - name: demon_slime_FREE_v1.0_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 103
         y: 1
         width: 125
         height: 115
       spriteId: 8feb5858258bd6a4b9158692cc085369
-    - name: demon_slime_FREE_v1.0_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 119
         height: 116
       spriteId: 3259405ebbbd9cc48ba28463fa723966
-    - name: demon_slime_FREE_v1.0_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 111
         y: 1
         width: 113
         height: 121
       spriteId: a2ed2ef53d72ab444b2826ebd3152a92
-    - name: demon_slime_FREE_v1.0_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 114
         height: 123
       spriteId: f12331baf5f60e74c9f58e927f026ba1
-    - name: demon_slime_FREE_v1.0_Frame_55
+    - name: Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 114
         height: 123
       spriteId: 43029416d56bc964b8695415eb683681
-    - name: demon_slime_FREE_v1.0_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 114
         height: 121
       spriteId: 961434948494fee4e97c30cba3159f95
-    - name: demon_slime_FREE_v1.0_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 114
         height: 85
       spriteId: a28ea966c5bc3754b9da1f6a615610cc
-    - name: demon_slime_FREE_v1.0_Frame_58
+    - name: Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1
         width: 114
         height: 2
       spriteId: 57979f1c96915854bb886d336e501f03
-    - name: demon_slime_FREE_v1.0_Frame_59
+    - name: Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 109
         y: 1

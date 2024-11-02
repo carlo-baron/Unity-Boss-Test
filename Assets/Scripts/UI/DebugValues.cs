@@ -15,7 +15,7 @@ public class DebugValues : MonoBehaviour
 
     void Update()
     {
-        velocityText.text = $"Velocity x: {playerRB.velocity.x:F2}, Velocity y: {playerRB.velocity.y:F2}";
+        velocityText.text = $"Velocity x: {playerRB.linearVelocity.x:F2}, Velocity y: {playerRB.linearVelocity.y:F2}";
         groundState.text = $"Ground State: {playerMovement.IsGrounded()}";
         animationState.text = $"Animation State: {playerAnim.GetCurrentAnimatorClipInfo(0)[0].clip.name}";
     }

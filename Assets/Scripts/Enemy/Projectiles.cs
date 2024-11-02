@@ -35,14 +35,15 @@ public class Projectiles : MonoBehaviour
         if(!isRicocheted){
             if(other.CompareTag("player")){
                 other.GetComponent<IDamageable>()?.Hurt(damage);
+                Destroy(gameObject);
             }
         }else{
-            if(other.tag != "player"){
+            if(other.tag != "player" && other.tag != gameObject.tag){
                 other.GetComponent<IDamageable>()?.Hurt(damage);
+                Destroy(gameObject);
             }
         }
 
-        Destroy(gameObject);
     }
 
     void Update(){
@@ -57,7 +58,7 @@ public class Projectiles : MonoBehaviour
         float rotationValue = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotationValue - 180);
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         rb.AddForce(direction * speed, ForceMode2D.Impulse);
         print("Ricocheted");
