@@ -6,10 +6,13 @@ public class Projectiles : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField]private int damage = 10;
     [SerializeField] float speed;
+
     public Vector2 Direction{
         get { return direction; }
         set { direction = value; }
     }
+
+    // private Transform 
     
     void Awake(){
         rb = GetComponent<Rigidbody2D>();
@@ -27,5 +30,9 @@ public class Projectiles : MonoBehaviour
         if(other.CompareTag("player")){
             other.GetComponent<IDamageable>()?.Hurt(damage);
         }
+    }
+
+    void OnBecameInvisible(){
+        Destroy(gameObject);
     }
 }

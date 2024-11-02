@@ -16,7 +16,7 @@ public class BatBoss : FlyingEnemy
     void Update()
     {
         Flip();
-
+        anim.SetBool("flying", !moveAgain);
         if (ChangeStateCooldown.isCoolingdown)
         {
             if (state == AttackStates.SkyAttack)
@@ -67,7 +67,8 @@ public class BatBoss : FlyingEnemy
     void Attack(Vector3 dir)
     {
         if (AttackCooldown.isCoolingdown) return;
-        GameObject projectile = Instantiate(Projectile, ProjectileFirePoint.position, Quaternion.identity);
+        anim.SetTrigger("atk");
+        GameObject projectile = Instantiate(Projectile, ProjectileFirePoint.position, Quaternion.identity, transform);
         projectile.GetComponent<Projectiles>().Direction = dir;
         AttackCooldown.StartCooldown();
     }
