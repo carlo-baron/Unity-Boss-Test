@@ -9,10 +9,14 @@ public class BatBoss : FlyingEnemy
     bool moveAgain = true;
     float defaultAttackCooldown;
 
-    PlayerHealth heatlh;
+    PlayerHealth health;
 
-    void Start(){
+    void Start()
+    {
         defaultAttackCooldown = AttackCooldown.CooldownTime;
+        health = GetComponent<PlayerHealth>();
+        health.IsHurt += (sender, args) => anim.SetTrigger("hurt");
+        health.IsDead += (sender, args) => { anim.SetBool("dead", true); health.enabled = false; enabled = false; };
     }
     void Update()
     {
@@ -73,7 +77,7 @@ public class BatBoss : FlyingEnemy
         Projectiles projectileScript = projectile.GetComponent<Projectiles>();
         projectileScript.Direction = dir;
         projectileScript.Launcher = transform;
-        
+
         AttackCooldown.StartCooldown();
     }
 

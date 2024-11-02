@@ -61,7 +61,6 @@ public class Projectiles : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
 
         rb.AddForce(direction * speed, ForceMode2D.Impulse);
-        print("Ricocheted");
     }
     void OnBecameInvisible(){
         Destroy(gameObject);
