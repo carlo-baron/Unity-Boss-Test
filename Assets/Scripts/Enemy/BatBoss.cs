@@ -68,8 +68,11 @@ public class BatBoss : FlyingEnemy
     {
         if (AttackCooldown.isCoolingdown) return;
         anim.SetTrigger("atk");
-        GameObject projectile = Instantiate(Projectile, ProjectileFirePoint.position, Quaternion.identity, transform);
-        projectile.GetComponent<Projectiles>().Direction = dir;
+        GameObject projectile = Instantiate(Projectile, ProjectileFirePoint.position, Quaternion.identity);
+        Projectiles projectileScript = projectile.GetComponent<Projectiles>();
+        projectileScript.Direction = dir;
+        projectileScript.Launcher = transform;
+        
         AttackCooldown.StartCooldown();
     }
 

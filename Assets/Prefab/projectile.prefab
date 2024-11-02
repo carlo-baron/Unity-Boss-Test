@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -6129241906846722243}
   - component: {fileID: 1573637596587616652}
   - component: {fileID: 1608774737253866926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: projectile
   m_TagString: projectile
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c618f665a0bcaeb41ae5e3007b82376f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 10
   speed: 10
 --- !u!50 &1573637596587616652
 Rigidbody2D:

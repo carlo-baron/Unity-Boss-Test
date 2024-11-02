@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
@@ -109,6 +110,7 @@ public class PlayerAttack : MonoBehaviour
         List<Collider2D> enemies = new List<Collider2D>();
         ContactFilter2D contactFilter = new ContactFilter2D();
         contactFilter.SetLayerMask(LayerMask.GetMask("enemy"));
+        contactFilter.useTriggers = true;
 
         Physics2D.OverlapCollider(atkCollider, contactFilter, enemies);
 
@@ -121,6 +123,10 @@ public class PlayerAttack : MonoBehaviour
             foreach(Collider2D enemy in EnemiesHit()){
                 IDamageable damageable = enemy.gameObject.GetComponent<IDamageable>();
                 damageable?.Hurt(damage);
+
+                if(enemy.tag == "projectile"){
+                    enemy.GetComponent<Projectiles>().Ricochet();
+                }
             }
         }
     }
